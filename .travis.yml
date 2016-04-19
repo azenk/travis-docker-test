@@ -7,4 +7,4 @@ before_install:
   - docker pull busybox
 
 script:
-  - docker run busybox:latest /bin/echo "Hello Travis"
+  - docker run busybox:latest /bin/echo "Hello Travis Public"
