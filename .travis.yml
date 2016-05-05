@@ -8,4 +8,4 @@ install:
   - sudo docker pull busybox
 
 script:
-  - sudo docker run busybox:latest /bin/echo "Hello Travis Public"
+  - sudo docker run busybox:latest sleep 300
